@@ -1,0 +1,132 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.app-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.heading {
+  font-family: 'Roboto';
+}
+.timer-container-background {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-width: 80vw;
+}
+.timer-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.white-background {
+  background-color: white;
+  border: none;
+  border-radius: 190px;
+  min-height: 20vh;
+  min-width: 9vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.time {
+  color: #00d9f5;
+  font-family: 'Roboto';
+  margin-bottom: 0px;
+}
+.timer-status {
+  font-weight: 900;
+  font-family: 'Roboto';
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.start-and-reset-container {
+  display: flex;
+  flex-direction: row;
+}
+.start-pause-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+.button-start {
+  background-color: transparent;
+  border: none;
+  margin-right: 10px;
+}
+.start-pause-image {
+  max-height: 6vh;
+  margin-top: 8px;
+}
+.start-text {
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.reset-container {
+  display: flex;
+  flex-direction: row;
+}
+.timer-set-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.set-timer-limit-text {
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-bottom: 0px;
+}
+.limit-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  max-height: 10vh;
+}
+.minut-button {
+  background-color: transparent;
+  border: none;
+  margin-right: 20px;
+  min-height: 3vh;
+}
+.minus {
+  font-size: 40px;
+  font-family: 'Roboto';
+}
+.limit-time {
+  padding: 10px;
+  background-image: linear-gradient(to right, #cffcf1, #00d9f5);
+  background-size: cover;
+  border-radius: 10px;
+  min-width: 3vw;
+  max-height: 5vh;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 6px;
+  margin-right: 20px;
+}
+.plus {
+  font-weight: bold;
+  font-size: 20px;
+}
